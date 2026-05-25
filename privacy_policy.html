@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HealthMate UZ – Privacy Policy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f7fa;
+      color: #1a1a2e;
+      line-height: 1.8;
+    }
+    header {
+      background: linear-gradient(135deg, #028090, #02C39A);
+      color: white;
+      padding: 48px 24px;
+      text-align: center;
+    }
+    header h1 { font-size: 2rem; font-weight: 700; }
+    header p { margin-top: 8px; opacity: 0.9; font-size: 0.95rem; }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 24px 60px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #028090;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 20px;
+      background: linear-gradient(135deg, #028090, #02C39A);
+      border-radius: 4px;
+    }
+    p { margin-bottom: 12px; color: #444; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 8px; color: #444; }
+    .highlight {
+      background: #e8f8f5;
+      border-left: 4px solid #02C39A;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+    }
+    .contact-box {
+      background: linear-gradient(135deg, #028090, #02C39A);
+      color: white;
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+    }
+    .contact-box a { color: white; font-weight: 600; }
+    footer {
+      text-align: center;
+      color: #999;
+      font-size: 0.85rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>HealthMate UZ</h1>
+  <p>Privacy Policy &nbsp;·&nbsp; Last updated: May 2026</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Introduction</h2>
+    <p>
+      Welcome to <strong>HealthMate UZ</strong>. We are committed to protecting your personal
+      and health information. This Privacy Policy explains what data we collect, how we use it,
+      and your rights as a user.
+    </p>
+    <p>
+      By using HealthMate UZ, you agree to the terms described in this policy.
+      If you do not agree, please discontinue use of the application.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Information We Collect</h2>
+    <p>We collect the following types of information when you use HealthMate UZ:</p>
+    <ul>
+      <li><strong>Account information:</strong> Full name, username, email address, phone number</li>
+      <li><strong>Health data:</strong> Age, height, weight, BMI, disease/condition type</li>
+      <li><strong>Medicine data:</strong> Medicine names, dosages, schedules, intake logs</li>
+      <li><strong>Lab analysis input:</strong> Text you enter for AI-powered lab result analysis</li>
+      <li><strong>Order information:</strong> Medicine orders, delivery address</li>
+      <li><strong>Usage data:</strong> App activity, crash reports (anonymous)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>How We Use Your Information</h2>
+    <ul>
+      <li>To provide medicine reminder and tracking services</li>
+      <li>To calculate and display your BMI and health statistics</li>
+      <li>To process AI-powered lab analysis through Anthropic's Claude API</li>
+      <li>To process pharmacy orders</li>
+      <li>To authenticate your account securely via Firebase Authentication</li>
+      <li>To improve app performance and fix bugs</li>
+    </ul>
+    <div class="highlight">
+      <strong>Important:</strong> We do not sell, rent, or share your personal or health data
+      with third parties for marketing purposes.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Third-Party Services</h2>
+    <p>HealthMate UZ uses the following trusted third-party services:</p>
+    <ul>
+      <li>
+        <strong>Firebase (Google):</strong> Authentication, cloud database (Firestore),
+        and push notifications. Data is stored on Google's secure servers.
+        <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a>
+      </li>
+      <li>
+        <strong>Anthropic Claude API:</strong> Used exclusively to analyze lab result text
+        you submit. Your input is sent to Anthropic's API and is subject to
+        <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic's Privacy Policy</a>.
+        We do not store raw API inputs permanently.
+      </li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Data Storage and Security</h2>
+    <p>
+      Your data is stored securely in Google Firebase Firestore with strict security rules.
+      Only you can access your own data — other users cannot view your information.
+    </p>
+    <p>
+      We use industry-standard encryption for data in transit (HTTPS/TLS).
+      Firebase Authentication handles password security.
+    </p>
+    <p>
+      While we take security seriously, no system is 100% secure.
+      We encourage you to use a strong password and keep your credentials private.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Health Data Disclaimer</h2>
+    <div class="highlight">
+      <strong>HealthMate UZ is not a medical device and does not provide medical advice.</strong>
+      The AI lab analysis feature provides general information only and should not replace
+      consultation with a qualified healthcare professional. Always consult your doctor
+      for medical decisions.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Data Retention</h2>
+    <p>
+      We retain your data as long as your account is active. If you delete your account,
+      your personal data will be permanently deleted from our servers within 30 days.
+    </p>
+    <p>
+      Medicine logs and analysis history are stored until you choose to delete them
+      or close your account.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Children's Privacy</h2>
+    <p>
+      HealthMate UZ is not directed at children under the age of 13.
+      We do not knowingly collect personal information from children under 13.
+      If you believe a child has provided us with personal information, please contact us
+      and we will delete it promptly.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Access the personal data we hold about you</li>
+      <li>Request correction of inaccurate data</li>
+      <li>Request deletion of your account and all associated data</li>
+      <li>Withdraw consent at any time by deleting your account</li>
+    </ul>
+    <p>To exercise these rights, contact us at the email below.</p>
+  </div>
+
+  <div class="card">
+    <h2>Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. We will notify users of
+      significant changes through the app or by email. Continued use of the app after
+      changes means you accept the updated policy.
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="contact-box">
+      <h2 style="color:white; justify-content:center;">Contact Us</h2>
+      <p style="color:white; margin-bottom:8px;">
+        If you have any questions about this Privacy Policy, please contact us:
+      </p>
+      <p style="color:white;">
+        Email: <a href="mailto:support@healthmate.uz">support@healthmate.uz</a>
+      </p>
+      <p style="color:white;">App: HealthMate UZ</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 HealthMate UZ. All rights reserved.</p>
+  </footer>
+
+</div>
+</body>
+</html>
